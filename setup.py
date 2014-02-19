@@ -25,7 +25,8 @@ setup(
     platforms = 'POSIX',
     packages = ['pt3', 'pt3/layouts'],
     data_files = [('share/doc/pytyle3', ['README', 'COPYING', 'INSTALL']),
-                  ('/etc/xdg/pytyle3', 
+                  #njj ('/etc/xdg/pytyle3', 
+                  ('etc/xdg/pytyle3', 
                    ['config.py', 'keybind.py'])],
     scripts = ['pytyle3']
 )
